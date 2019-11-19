@@ -4,10 +4,10 @@
 	// TODO: Please follow the instructions to configure the settings for your use case
 	
 	// Create an Azure AD B2C application in the Azure Portal, then configure the following settings
-	$tenant = "name of your Active Directory tenant";
-	$clientID = "client ID of your B2C application in the portal"; 
+	$tenant = "b2cabinbevtest";
+	$clientID = "56c13c77-5d7c-4de3-aa02-4db33c7b5e14";
 	$client_secret = ""; // the client secret for B2C application that you created, only fill this in if you want to use confidential client flow
-	$redirect_uri = urlencode("yourwebsite.com"); 
+	$redirect_uri = urlencode("http://localhost:8000");
 	
 	// Decide which authentication flow you would like to follow
 	// To use Implicit Flow (recommended), set response_type to "id_token"
